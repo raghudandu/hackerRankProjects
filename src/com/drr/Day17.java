@@ -1,7 +1,6 @@
 package com.drr;
 
-import java.util.*;
-import java.io.*;
+import java.util.Scanner;
 
 //Write your code here
 

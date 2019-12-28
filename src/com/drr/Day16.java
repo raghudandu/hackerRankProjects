@@ -1,10 +1,6 @@
 package com.drr;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
 
 public class Day16 {
 
@@ -12,9 +8,9 @@ public class Day16 {
         Scanner in = new Scanner(System.in);
         String S = in.next();
         try {
-        	int n = Integer.parseInt(S);
-        	System.out.println(n);
-        }catch (NumberFormatException e) {
+            int n = Integer.parseInt(S);
+            System.out.println(n);
+        } catch (NumberFormatException e) {
 			System.out.println("Bad String");
 		}
         
