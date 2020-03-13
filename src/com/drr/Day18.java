@@ -1,14 +1,13 @@
 package com.drr;
 
-import java.io.*;
 import java.util.*;
 
 public class Day18 {
     // Write your code here.
 
-    Stack mystack = new  Stack();
+    Stack<Character> mystack = new  Stack<Character>();
 
-    Queue myQueue = new LinkedList();
+    Queue<Character> myQueue = new LinkedList<Character>();
     public void pushCharacter(char c){
         mystack.push(c);
     }
