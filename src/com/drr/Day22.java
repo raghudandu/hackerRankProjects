@@ -8,6 +8,17 @@ class Day22{
 
 	public static int getHeight(BinaryTreeNode root){
       //Write your code here
+		if(root !=null) {
+			int leftHeight=0,rightHeight =0;
+			if(root.left!=null)
+				leftHeight=getHeight(root.left);
+			if(root.right !=null)
+				rightHeight = getHeight(root.right);
+			return 1+Math.max(leftHeight, rightHeight);
+			
+		}else {
+			return -1;
+		}
     }
 
     public static BinaryTreeNode insert(BinaryTreeNode root,int data){
