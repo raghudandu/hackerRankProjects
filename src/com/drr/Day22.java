@@ -1,8 +1,6 @@
 package com.drr;
 
 import java.util.*;
-import java.io.*;
-
 
 class Day22{
 
@@ -46,6 +44,7 @@ class Day22{
             int data=sc.nextInt();
             root=insert(root,data);
         }
+        sc.close();
         int height=getHeight(root);
         System.out.println(height);
     }

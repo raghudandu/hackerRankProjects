@@ -35,7 +35,7 @@ public class Day21 {
         for (int i = 0; i < n; i++) {
             stringArray[i] = scanner.next();
         }
-        
+        scanner.close();
         Printer<Integer> intPrinter = new Printer<Integer>();
         Printer<String> stringPrinter = new Printer<String>();
         intPrinter.printArray( intArray  );
